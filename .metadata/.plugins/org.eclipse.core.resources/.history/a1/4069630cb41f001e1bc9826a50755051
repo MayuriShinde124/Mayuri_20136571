@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns = "http://www.springframework.org/schema/beans" 
+xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation = "http://www.springframework.org/schema/beans
+   http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+	<bean id="emp" class="com.Employee">
+	
+
+	    <property name="empid"> <value>101</value></property>
+			    <property name="empname"> <value>Mayuri</value></property>
+	    
+		<property  name="language">
+			<list>
+			<value>JAVA</value>
+			<value>C</value>
+			<value>C++</value>
+			<value>PYTHON</value>
+			<value>HTML</value>
+		</list>
+	</property>
+	
+		
+		
+
+	
+
+	
+	</bean>
+</beans>

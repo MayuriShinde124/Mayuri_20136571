@@ -1,0 +1,26 @@
+package com;
+
+import java.util.Scanner;
+
+public class MainApp {
+
+	public static void main(String[] args) {
+		
+        Scanner sc=new Scanner(System.in);
+        System.out.println("enter id : ");
+        int cid=sc.nextInt();
+        
+        System.out.println("enter name : ");
+        String name=sc.next();
+        
+        System.out.println("enter place: ");
+        String place=sc.next();
+        
+        System.out.println("enter pan : ");
+        String pan=sc.next();
+        
+        
+        
+	}
+
+}

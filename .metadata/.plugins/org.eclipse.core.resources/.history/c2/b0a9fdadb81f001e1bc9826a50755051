@@ -1,0 +1,24 @@
+package com;
+import java.util.*;
+
+public class Library {
+	ArrayList bookList = new  ArrayList();
+	
+	void addBook(Book b) 
+	{
+		bookList.add(b);
+	}
+	boolean isEmpty() 
+	{
+		if(bookList.isEmpty())
+		{
+		return true;
+		}
+		else 
+		{
+		return false;
+		}
+		
+	}
+
+}

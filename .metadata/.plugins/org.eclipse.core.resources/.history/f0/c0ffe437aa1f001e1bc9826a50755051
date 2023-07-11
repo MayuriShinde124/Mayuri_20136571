@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<div style="text-align:center;">
+<form action="register">
+ID :<input type="text" name="sid"><br>
+
+NAME :<input type="text" name="sname"><br>
+PHONE:<input type="text" name="sphone"><br>
+MARKS:<input type="text" name="smarks"><br>
+Branch:<input type="text" name="sbranch"><br>
+<input type="submit" name="click">
+
+</form>
+
+</div>
+</body>
+</html>

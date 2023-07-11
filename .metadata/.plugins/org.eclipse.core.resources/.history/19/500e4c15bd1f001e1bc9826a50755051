@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+table, th, td {
+  border: 1px solid black;
+}
+</head>
+<body>
+<form action="Calcuate.jsp">
+
+<table>
+<tr>
+<td>
+LOAN AMOUNT :
+</td><td><input type="NUMBER" name="anunt"></td>
+<tr>
+<td>
+LOAN TENURE :</td><td><input type="number" name="tenure"></td>
+<tr>
+<td>
+INTEREST RATE</td><td><input type="number" name="rate"></td></tr>
+
+<tr><td>
+<input type="submit" name="Calculate">
+</td>
+</tr>
+</table>
+
+
+</form>
+
+</body>
+</html>
